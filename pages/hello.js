@@ -1,5 +1,12 @@
-const Hello = () => {
-  return <div>Hello World</div>;
-};
+import Footer from '../components/footer'
 
-export default Hello;
+const Hello = () => {
+  return (
+    <>
+      <div>Hello World</div>
+      <Footer />
+    </>
+  )
+}
+
+export default Hello
